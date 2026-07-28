@@ -1,0 +1,17 @@
+{
+  "name": "redmine-mcp-proxy",
+  "version": "1.0.0",
+  "description": "Streamable HTTP proxy for redmine-mcp",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "express": "^5.2.1"
+  }
+}
